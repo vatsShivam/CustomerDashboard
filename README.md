@@ -1,7 +1,4 @@
-from fpdf import FPDF
 
-# Define the content of the README
-readme_content = """
 🧩 React App with JSON Server & Storybook
 
 This project is a React application that integrates:
@@ -11,23 +8,6 @@ This project is a React application that integrates:
 - 🔌 JSON Server – For mocking API data
 - 📚 Storybook – For building and testing components in isolation
 
----
-
-📁 Project Structure
-
-.
-├── jsondb/
-│   └── db.json               # Mock API data
-├── src/
-│   ├── components/           # React components
-│   ├── context/              # Context/hooks (e.g. useCustomerAggregatorService)
-│   ├── stories/              # Storybook stories
-│   └── ...
-├── .storybook/               # Storybook configuration
-├── package.json
-└── README.md
-
----
 
 🚀 Getting Started
 
